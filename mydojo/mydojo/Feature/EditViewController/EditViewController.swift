@@ -12,7 +12,7 @@ class EditViewController: UIViewController, UITableViewDelegate, UITableViewData
    
     
     @IBOutlet var tableView: UITableView!
-    let editViewModel = EditViewModel()
+    let viewModel = EditViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +22,13 @@ class EditViewController: UIViewController, UITableViewDelegate, UITableViewData
 
 extension EditViewController {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return viewModel.exercises.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = UITableViewCell()
+        cell.detailTextLabel?.text = viewModel.exercises[indexPath.row]
+        return cell
     }
     
 }
