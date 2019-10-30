@@ -11,7 +11,7 @@ import UIKit
 class RandomViewModel {
     let reps = ["5x", "10x", "20x"]
     let colors: [UIColor] = [.cyan, .orange, .blue, .green, .red, .purple, .magenta, .yellow]
-    let exercise: [String] = ["Push up", "Star jump", "Sit up", "Bicycle crunches", "Bear crawls", "Forearm plank", "Torso twisting sit up", "Lower ab crunches"]
+    let exercise: [String] = EditViewModel.defaultExercises
     
     func randomColor()->UIColor {
         self.colors.randomElement() ?? .purple

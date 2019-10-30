@@ -8,23 +8,25 @@
 
 import UIKit
 
-class EditViewController: UIViewController {
+class EditViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+   
+    
+    @IBOutlet var tableView: UITableView!
+    let editViewModel = EditViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.delegate = self
+    }
+}
 
-        // Do any additional setup after loading the view.
+extension EditViewController {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
     }
-    */
-
+    
 }

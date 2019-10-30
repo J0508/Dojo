@@ -8,6 +8,20 @@
 
 import UIKit
 
-class EditViewModel: NSObject {
-
+class EditViewModel {
+    
+    static let defaultExercises = ["Push up", "Star jump", "Sit up", "Bicycle crunches", "Bear crawls", "Forearm plank", "Torso twisting sit up", "Lower ab crunches"]
+    var exercises: [String] = []
+    
+    init() {
+        exercises = UserDefaults.standard.array(forKey: "exercises") as? [String] ?? EditViewModel.defaultExercises
+    }
+    
+    func add(_ exercise: String) {
+        
+    }
+    
+    func delete(_ exercise: String) {
+        
+    }
 }
