@@ -6,7 +6,6 @@ target 'mydojo' do
   use_frameworks!
 
   # Pods for mydojo
-  pod 'RVS_Spinner'
 
   target 'mydojoTests' do
     inherit! :search_paths

@@ -1,16 +1,3 @@
-PODS:
-  - RVS_Spinner (2.1.7)
-
-DEPENDENCIES:
-  - RVS_Spinner
-
-SPEC REPOS:
-  trunk:
-    - RVS_Spinner
-
-SPEC CHECKSUMS:
-  RVS_Spinner: ddc3a1daab25c18b0511ac9b7ea650e9ddff5352
-
-PODFILE CHECKSUM: ad9fb9b118bf33aab7818db2c8aa39fa2c082a06
+PODFILE CHECKSUM: ff79f58298267772daaeb71ecf37e6ae53be9c57
 
 COCOAPODS: 1.8.4

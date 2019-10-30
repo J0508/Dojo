@@ -14,6 +14,7 @@
 		071496E8236921E9002A55E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071496E7236921E9002A55E2 /* Assets.xcassets */; };
 		071496EB236921E9002A55E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071496E9236921E9002A55E2 /* LaunchScreen.storyboard */; };
 		071496F6236921E9002A55E2 /* mydogoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071496F5236921E9002A55E2 /* mydogoTests.swift */; };
+		0714970323692C52002A55E2 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714970223692C52002A55E2 /* CircularButton.swift */; };
 		3406C613EC7C0FCE80C25891 /* Pods_mydojo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8541626041B57F99E810FF8 /* Pods_mydojo.framework */; };
 		61B2BB7AF6878CE816855005 /* Pods_mydojoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF7B61FA2FB9F6E843AABDE /* Pods_mydojoTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		071496F1236921E9002A55E2 /* mydojoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mydojoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071496F5236921E9002A55E2 /* mydogoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mydogoTests.swift; sourceTree = "<group>"; };
 		071496F7236921E9002A55E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0714970223692C52002A55E2 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		2FF7B61FA2FB9F6E843AABDE /* Pods_mydojoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mydojoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BD2883F9C6DF0646BA8DFF /* Pods-mydojoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydojoTests.debug.xcconfig"; path = "Target Support Files/Pods-mydojoTests/Pods-mydojoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91A3C4B4FCCDB806CA567FD6 /* Pods-mydojo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydojo.release.xcconfig"; path = "Target Support Files/Pods-mydojo/Pods-mydojo.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		071496DD236921E8002A55E2 /* mydojo */ = {
 			isa = PBXGroup;
 			children = (
+				0714970123692C3D002A55E2 /* View */,
 				071496DE236921E8002A55E2 /* AppDelegate.swift */,
 				071496E0236921E8002A55E2 /* SceneDelegate.swift */,
 				071496E2236921E8002A55E2 /* ViewController.swift */,
@@ -109,6 +112,14 @@
 				071496F7236921E9002A55E2 /* Info.plist */,
 			);
 			path = mydojoTests;
+			sourceTree = "<group>";
+		};
+		0714970123692C3D002A55E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0714970223692C52002A55E2 /* CircularButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		3C560E74B376B17508681F40 /* Pods */ = {
@@ -142,7 +153,6 @@
 				071496D7236921E8002A55E2 /* Sources */,
 				071496D8236921E8002A55E2 /* Frameworks */,
 				071496D9236921E8002A55E2 /* Resources */,
-				FB4A07D40D4A1E5D45C4A64D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,23 +285,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB4A07D40D4A1E5D45C4A64D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mydojo/Pods-mydojo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mydojo/Pods-mydojo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mydojo/Pods-mydojo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -299,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0714970323692C52002A55E2 /* CircularButton.swift in Sources */,
 				071496E3236921E8002A55E2 /* ViewController.swift in Sources */,
 				071496DF236921E8002A55E2 /* AppDelegate.swift in Sources */,
 				071496E1236921E8002A55E2 /* SceneDelegate.swift in Sources */,
@@ -464,14 +458,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZR9NZF2XV;
-				INFOPLIST_FILE = mydogo/Info.plist;
+				INFOPLIST_FILE = mydojo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.mydogo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.mydojo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,14 +479,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZR9NZF2XV;
-				INFOPLIST_FILE = mydogo/Info.plist;
+				INFOPLIST_FILE = mydojo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.mydogo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.mydojo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
