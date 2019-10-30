@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00906298B9CC997BFCAF71E79A2DD20A /* Pods-mydojoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C6F149C0448F9E5B5BD9DD50314EF /* Pods-mydojoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8714E7E0326A88418FF2234227C265 /* RVS_Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F86CF28994679A7950A28DEEACFEBC0 /* RVS_Spinner.swift */; };
+		31CCA8912D9545C7F0E8C0AD659F0FBB /* Pods-mydojoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4ED8417BE269B3642DF6BA5A72BBEA /* Pods-mydojoTests-dummy.m */; };
+		6F63CE846AC2E36E96075DB6053FA308 /* RVS_Spinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC830F66D189DB1D1B7473DF8E2AD309 /* RVS_Spinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76984BB3F8DEB8CED84EDB4DFE815CA1 /* Pods-mydojo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E345525D97564469919C1C0D5B6030 /* Pods-mydojo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE65E70BA214C9F4F9BF8B0276CAD38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		90226E5A1922206ABFEE5BE71A19A213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		93F8CEDA9B657EC92010F726A8C30F69 /* Pods-mydojo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B47D50D29D4AB048073233B86CD736C /* Pods-mydojo-dummy.m */; };
+		B63873119E049032CE627ABE97DBC875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		F4F2CDD0543E6AD1C9E6B725B2FB14F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FF05D1BAC172AAF8D6CC2BB9B84693AA /* RVS_Spinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1364DB2DE8A2DA0A12270A67B7E0BE51 /* RVS_Spinner-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		414055FDC1C860620B380A2678998464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB34C447F2DF4F2A9E128B06E82F9673;
+			remoteInfo = "Pods-mydojo";
+		};
+		FABA22EB3FDFDC2A8CD20D4D32AB5FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59644A51D9346113BF2D3B36176987AC;
+			remoteInfo = RVS_Spinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033AE2DDE5E76567B347E813B6C96EA0 /* Pods-mydojo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mydojo-frameworks.sh"; sourceTree = "<group>"; };
+		1364DB2DE8A2DA0A12270A67B7E0BE51 /* RVS_Spinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVS_Spinner-dummy.m"; sourceTree = "<group>"; };
+		2A2310712065A93272DE33ECBACAF786 /* Pods-mydojo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mydojo.modulemap"; sourceTree = "<group>"; };
+		311F5EDB7C31AF63786EB41304938C18 /* Pods-mydojo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydojo-Info.plist"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		34C6A0D666AB5704757DCD2788E66508 /* Pods-mydojo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydojo-acknowledgements.plist"; sourceTree = "<group>"; };
+		34CC074BDA99903AF8E5103C651B2957 /* Pods-mydojoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydojoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B47D50D29D4AB048073233B86CD736C /* Pods-mydojo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mydojo-dummy.m"; sourceTree = "<group>"; };
+		67E2F00F0309603577CB15EE2CBFBA5C /* Pods-mydojoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mydojoTests.modulemap"; sourceTree = "<group>"; };
+		6B89ECF9120ABE8E0FD03CB79FE6F947 /* Pods_mydojo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mydojo.framework; path = "Pods-mydojo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723DECC06F6FB3171F3F7F84101F2332 /* RVS_Spinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RVS_Spinner.modulemap; sourceTree = "<group>"; };
+		7C4ED8417BE269B3642DF6BA5A72BBEA /* Pods-mydojoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mydojoTests-dummy.m"; sourceTree = "<group>"; };
+		7F86CF28994679A7950A28DEEACFEBC0 /* RVS_Spinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RVS_Spinner.swift; path = RVS_Spinner/RVS_Spinner.swift; sourceTree = "<group>"; };
+		80A6FD1788D63F85C5F8FF71CB997B0F /* RVS_Spinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RVS_Spinner.framework; path = RVS_Spinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDB363A3DD027B8F6EE167C55A69C8C /* RVS_Spinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RVS_Spinner-Info.plist"; sourceTree = "<group>"; };
+		A805C17921845B5082D756699A02642D /* Pods-mydojo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydojo.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E345525D97564469919C1C0D5B6030 /* Pods-mydojo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mydojo-umbrella.h"; sourceTree = "<group>"; };
+		B29663C6AF2714198DF12E568D34C0BC /* Pods-mydojo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mydojo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFCF2F94C44373F19C0A6E003FCFC331 /* Pods-mydojoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydojoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE7FB64C370850F50A743E62348F3CE4 /* Pods-mydojoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mydojoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0FF5DFA457FF07003C6C5E538030E5A /* Pods-mydojoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydojoTests-Info.plist"; sourceTree = "<group>"; };
+		D936D2D32075A8FA30DB8BB85C94FC80 /* Pods-mydojoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydojoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA3E7226A43AB77E25579EADE9293012 /* RVS_Spinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVS_Spinner-prefix.pch"; sourceTree = "<group>"; };
+		DB3C6F149C0448F9E5B5BD9DD50314EF /* Pods-mydojoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mydojoTests-umbrella.h"; sourceTree = "<group>"; };
+		DEDF035F950126B3861FA876528B6D44 /* Pods-mydojo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydojo.release.xcconfig"; sourceTree = "<group>"; };
+		EE33475D5069E611EAA4EE0110B120BC /* RVS_Spinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVS_Spinner.xcconfig; sourceTree = "<group>"; };
+		EFAFC414115E57B208D936924AE8989B /* Pods_mydojoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mydojoTests.framework; path = "Pods-mydojoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC830F66D189DB1D1B7473DF8E2AD309 /* RVS_Spinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVS_Spinner-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D935C97E4AE9A4CCDEEB1DBF911EAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90226E5A1922206ABFEE5BE71A19A213 /* Foundation.framework in Frameworks */,
+				B63873119E049032CE627ABE97DBC875 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DFB8893415995F699EBFAD7538E495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F2CDD0543E6AD1C9E6B725B2FB14F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18AAA98956D83A3452DB4594AF4022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE65E70BA214C9F4F9BF8B0276CAD38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E55B862F4003524ED60D2B74607E474 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFE775EA976AACB1DD5C99581B0DA670 /* RVS_Spinner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		342EA8D74D47E795C7B774EE7D6DEBCB /* Pods-mydojoTests */ = {
+			isa = PBXGroup;
+			children = (
+				67E2F00F0309603577CB15EE2CBFBA5C /* Pods-mydojoTests.modulemap */,
+				CE7FB64C370850F50A743E62348F3CE4 /* Pods-mydojoTests-acknowledgements.markdown */,
+				34CC074BDA99903AF8E5103C651B2957 /* Pods-mydojoTests-acknowledgements.plist */,
+				7C4ED8417BE269B3642DF6BA5A72BBEA /* Pods-mydojoTests-dummy.m */,
+				D0FF5DFA457FF07003C6C5E538030E5A /* Pods-mydojoTests-Info.plist */,
+				DB3C6F149C0448F9E5B5BD9DD50314EF /* Pods-mydojoTests-umbrella.h */,
+				D936D2D32075A8FA30DB8BB85C94FC80 /* Pods-mydojoTests.debug.xcconfig */,
+				BFCF2F94C44373F19C0A6E003FCFC331 /* Pods-mydojoTests.release.xcconfig */,
+			);
+			name = "Pods-mydojoTests";
+			path = "Target Support Files/Pods-mydojoTests";
+			sourceTree = "<group>";
+		};
+		39D56088241430AFF3BA4C8C341EA225 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B35017D06EF8492A19B3D15AA79919B /* Pods-mydojo */,
+				342EA8D74D47E795C7B774EE7D6DEBCB /* Pods-mydojoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F1C48512D9B758D4ADF68258702C906 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				723DECC06F6FB3171F3F7F84101F2332 /* RVS_Spinner.modulemap */,
+				EE33475D5069E611EAA4EE0110B120BC /* RVS_Spinner.xcconfig */,
+				1364DB2DE8A2DA0A12270A67B7E0BE51 /* RVS_Spinner-dummy.m */,
+				9FDB363A3DD027B8F6EE167C55A69C8C /* RVS_Spinner-Info.plist */,
+				DA3E7226A43AB77E25579EADE9293012 /* RVS_Spinner-prefix.pch */,
+				FC830F66D189DB1D1B7473DF8E2AD309 /* RVS_Spinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RVS_Spinner";
+			sourceTree = "<group>";
+		};
+		9B35017D06EF8492A19B3D15AA79919B /* Pods-mydojo */ = {
+			isa = PBXGroup;
+			children = (
+				2A2310712065A93272DE33ECBACAF786 /* Pods-mydojo.modulemap */,
+				B29663C6AF2714198DF12E568D34C0BC /* Pods-mydojo-acknowledgements.markdown */,
+				34C6A0D666AB5704757DCD2788E66508 /* Pods-mydojo-acknowledgements.plist */,
+				5B47D50D29D4AB048073233B86CD736C /* Pods-mydojo-dummy.m */,
+				033AE2DDE5E76567B347E813B6C96EA0 /* Pods-mydojo-frameworks.sh */,
+				311F5EDB7C31AF63786EB41304938C18 /* Pods-mydojo-Info.plist */,
+				A8E345525D97564469919C1C0D5B6030 /* Pods-mydojo-umbrella.h */,
+				A805C17921845B5082D756699A02642D /* Pods-mydojo.debug.xcconfig */,
+				DEDF035F950126B3861FA876528B6D44 /* Pods-mydojo.release.xcconfig */,
+			);
+			name = "Pods-mydojo";
+			path = "Target Support Files/Pods-mydojo";
+			sourceTree = "<group>";
+		};
+		AFE775EA976AACB1DD5C99581B0DA670 /* RVS_Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				7F86CF28994679A7950A28DEEACFEBC0 /* RVS_Spinner.swift */,
+				3F1C48512D9B758D4ADF68258702C906 /* Support Files */,
+			);
+			name = RVS_Spinner;
+			path = RVS_Spinner;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				2E55B862F4003524ED60D2B74607E474 /* Pods */,
+				E77909EFD19F2502AB1C1E9AF92028FA /* Products */,
+				39D56088241430AFF3BA4C8C341EA225 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E77909EFD19F2502AB1C1E9AF92028FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B89ECF9120ABE8E0FD03CB79FE6F947 /* Pods_mydojo.framework */,
+				EFAFC414115E57B208D936924AE8989B /* Pods_mydojoTests.framework */,
+				80A6FD1788D63F85C5F8FF71CB997B0F /* RVS_Spinner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FAFD02CE9EF2F977E2F8F5BD01C07BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76984BB3F8DEB8CED84EDB4DFE815CA1 /* Pods-mydojo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF60E6B4627E375E55550A13F59BD18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00906298B9CC997BFCAF71E79A2DD20A /* Pods-mydojoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83B4DD2BD492DA995285244156B96D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F63CE846AC2E36E96075DB6053FA308 /* RVS_Spinner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59644A51D9346113BF2D3B36176987AC /* RVS_Spinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BBF54F966DF46D51B21ECC0D533030 /* Build configuration list for PBXNativeTarget "RVS_Spinner" */;
+			buildPhases = (
+				E83B4DD2BD492DA995285244156B96D2 /* Headers */,
+				3D6F535C80394847A9DBF032DED6F024 /* Sources */,
+				4D935C97E4AE9A4CCDEEB1DBF911EAEC /* Frameworks */,
+				003D9406DF473B2F00DF4B3245BD2D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVS_Spinner;
+			productName = RVS_Spinner;
+			productReference = 80A6FD1788D63F85C5F8FF71CB997B0F /* RVS_Spinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEAB46B5041D4A304BBDADF062D7E820 /* Pods-mydojoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6A68DAE6832F48CD40320738FE0009 /* Build configuration list for PBXNativeTarget "Pods-mydojoTests" */;
+			buildPhases = (
+				DEF60E6B4627E375E55550A13F59BD18 /* Headers */,
+				C7D203719ED71815B746C4DB00365627 /* Sources */,
+				A0DFB8893415995F699EBFAD7538E495 /* Frameworks */,
+				CDB19A0EA1A4CB683B5ECD8CA4882756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1885AB307F5CE7D593A34686ACB7CDAB /* PBXTargetDependency */,
+			);
+			name = "Pods-mydojoTests";
+			productName = "Pods-mydojoTests";
+			productReference = EFAFC414115E57B208D936924AE8989B /* Pods_mydojoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB34C447F2DF4F2A9E128B06E82F9673 /* Pods-mydojo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CE906656350ADF0329734A6B4B84CC /* Build configuration list for PBXNativeTarget "Pods-mydojo" */;
+			buildPhases = (
+				2FAFD02CE9EF2F977E2F8F5BD01C07BD /* Headers */,
+				0EC93B32206796A8DD8E9387B261E5D4 /* Sources */,
+				AA18AAA98956D83A3452DB4594AF4022 /* Frameworks */,
+				F3FB7C9761DC84392CCB3D9E79DE6D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA0A17CC7F501C760297157042072E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-mydojo";
+			productName = "Pods-mydojo";
+			productReference = 6B89ECF9120ABE8E0FD03CB79FE6F947 /* Pods_mydojo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E77909EFD19F2502AB1C1E9AF92028FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB34C447F2DF4F2A9E128B06E82F9673 /* Pods-mydojo */,
+				CEAB46B5041D4A304BBDADF062D7E820 /* Pods-mydojoTests */,
+				59644A51D9346113BF2D3B36176987AC /* RVS_Spinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003D9406DF473B2F00DF4B3245BD2D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB19A0EA1A4CB683B5ECD8CA4882756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FB7C9761DC84392CCB3D9E79DE6D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC93B32206796A8DD8E9387B261E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F8CEDA9B657EC92010F726A8C30F69 /* Pods-mydojo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6F535C80394847A9DBF032DED6F024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF05D1BAC172AAF8D6CC2BB9B84693AA /* RVS_Spinner-dummy.m in Sources */,
+				2F8714E7E0326A88418FF2234227C265 /* RVS_Spinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D203719ED71815B746C4DB00365627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CCA8912D9545C7F0E8C0AD659F0FBB /* Pods-mydojoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1885AB307F5CE7D593A34686ACB7CDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mydojo";
+			target = FB34C447F2DF4F2A9E128B06E82F9673 /* Pods-mydojo */;
+			targetProxy = 414055FDC1C860620B380A2678998464 /* PBXContainerItemProxy */;
+		};
+		AFA0A17CC7F501C760297157042072E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RVS_Spinner;
+			target = 59644A51D9346113BF2D3B36176987AC /* RVS_Spinner */;
+			targetProxy = FABA22EB3FDFDC2A8CD20D4D32AB5FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BF2280B5EA8A158C61D29C0C0A827F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D936D2D32075A8FA30DB8BB85C94FC80 /* Pods-mydojoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mydojoTests/Pods-mydojoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mydojoTests/Pods-mydojoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2C4DD3073452CDEB3894B95E30F10B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE33475D5069E611EAA4EE0110B120BC /* RVS_Spinner.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVS_Spinner/RVS_Spinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVS_Spinner/RVS_Spinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RVS_Spinner/RVS_Spinner.modulemap";
+				PRODUCT_MODULE_NAME = RVS_Spinner;
+				PRODUCT_NAME = RVS_Spinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B88E27B581312F0D60B5F62D66856EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE33475D5069E611EAA4EE0110B120BC /* RVS_Spinner.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVS_Spinner/RVS_Spinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVS_Spinner/RVS_Spinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RVS_Spinner/RVS_Spinner.modulemap";
+				PRODUCT_MODULE_NAME = RVS_Spinner;
+				PRODUCT_NAME = RVS_Spinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EA6C969AAB509AF4CBCCA5DF5895A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDF035F950126B3861FA876528B6D44 /* Pods-mydojo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mydojo/Pods-mydojo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mydojo/Pods-mydojo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9507139D7E0C44C791FE0C86D578C236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCF2F94C44373F19C0A6E003FCFC331 /* Pods-mydojoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mydojoTests/Pods-mydojoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mydojoTests/Pods-mydojoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3F4ABF61D02558E8BD448DBF5201A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A805C17921845B5082D756699A02642D /* Pods-mydojo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mydojo/Pods-mydojo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mydojo/Pods-mydojo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CE906656350ADF0329734A6B4B84CC /* Build configuration list for PBXNativeTarget "Pods-mydojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F4ABF61D02558E8BD448DBF5201A4C /* Debug */,
+				8EA6C969AAB509AF4CBCCA5DF5895A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BBF54F966DF46D51B21ECC0D533030 /* Build configuration list for PBXNativeTarget "RVS_Spinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4DD3073452CDEB3894B95E30F10B2B /* Debug */,
+				8B88E27B581312F0D60B5F62D66856EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6A68DAE6832F48CD40320738FE0009 /* Build configuration list for PBXNativeTarget "Pods-mydojoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BF2280B5EA8A158C61D29C0C0A827F /* Debug */,
+				9507139D7E0C44C791FE0C86D578C236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

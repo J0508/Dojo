@@ -1,0 +1,6 @@
+framework module RVS_Spinner {
+  umbrella header "RVS_Spinner-umbrella.h"
+
+  export *
+  module * { export * }
+}
