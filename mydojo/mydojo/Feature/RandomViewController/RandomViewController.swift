@@ -12,11 +12,13 @@ class RandomViewController: UIViewController {
     
     @IBOutlet var repsLabel: UILabel!
     @IBOutlet var valueLabel: UILabel!
-    @IBOutlet var randomButton: CircularButton!
     let viewModel = RandomViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(random(_:)))
+        tapRecognizer.numberOfTapsRequired = 2
+        self.view.addGestureRecognizer(tapRecognizer)
         // Do any additional setup after loading the view.
     }
 }
@@ -30,26 +32,25 @@ extension RandomViewController {
         // go to method screen
     }
     
-    @IBAction func random(_ sender: Any) {
-        self.valueLabel.alpha = 0.0
-        self.repsLabel.alpha = 0.0
-        UIView.animateKeyframes(withDuration: 2.0, delay: 0.0, options: [], animations: {
-            for frame in 0...7 {
-                let f = CGFloat(frame)
-                UIView.addKeyframe(withRelativeStartTime: Double(f/8.0), relativeDuration: 1/8, animations: {
-                    self.random()
-                    let alp = (f + 1.0)/8.0
-                    self.valueLabel.alpha = alp
-                    self.repsLabel.alpha = alp
-                })
-            }
-        }, completion: nil)
+    @objc func random(_ sender: Any) {
+        UIView.animate(withDuration: 1.0) {
+            self.valueLabel.alpha = 0.0
+            self.repsLabel.alpha = 0.0
+            self.random()
+            self.valueLabel.alpha = 1.0
+            self.repsLabel.alpha = 1.0
+        }
     }
     
     func random() {
-        self.view.backgroundColor = viewModel.randomColor()
+        let bgColor = viewModel.randomColor()
+        let inverseColor = bgColor.inverseColor()
+        self.view.backgroundColor = bgColor
+        self.repsLabel.textColor = inverseColor
         self.repsLabel.text = viewModel.randomReps()
+        self.valueLabel.textColor = inverseColor
         self.valueLabel.text = viewModel.randomExercise()
+        
         
     }
 }

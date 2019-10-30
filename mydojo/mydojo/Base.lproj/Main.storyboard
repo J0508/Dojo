@@ -24,17 +24,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJ0-2E-uia" customClass="CircularButton" customModule="mydojo" customModuleProvider="target">
-                                <rect key="frame" x="182" y="792" width="50" height="50"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="AW1-2N-XPR"/>
-                                    <constraint firstAttribute="height" constant="50" id="PlH-qL-cdl"/>
-                                </constraints>
-                                <connections>
-                                    <action selector="random:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Le-ZG-nvC"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10x" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNH-K6-F97">
                                 <rect key="frame" x="10" y="138" width="404" height="100"/>
                                 <constraints>
@@ -49,8 +38,6 @@
                         <constraints>
                             <constraint firstItem="DgJ-m7-PPy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A1S-3F-Vmb"/>
                             <constraint firstItem="DNH-K6-F97" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Cup-bP-PL4"/>
-                            <constraint firstItem="LJ0-2E-uia" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L7b-RJ-sNw"/>
-                            <constraint firstItem="LJ0-2E-uia" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="PKb-CM-kng"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DNH-K6-F97" secondAttribute="trailing" id="QaQ-B5-lAN"/>
                             <constraint firstItem="DgJ-m7-PPy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XRi-DI-eyH"/>
                             <constraint firstItem="DNH-K6-F97" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fL4-c3-vcT"/>
@@ -68,7 +55,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="randomButton" destination="LJ0-2E-uia" id="GG9-I0-zGd"/>
                         <outlet property="repsLabel" destination="DNH-K6-F97" id="Uv2-BZ-qDc"/>
                         <outlet property="valueLabel" destination="DgJ-m7-PPy" id="aRD-gq-Shr"/>
                     </connections>

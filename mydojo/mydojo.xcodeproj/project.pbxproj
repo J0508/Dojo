@@ -20,6 +20,7 @@
 		96B9D4332369840B00AC92F8 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D4322369840B00AC92F8 /* EditViewController.swift */; };
 		96B9D4372369842800AC92F8 /* RandomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D4362369842800AC92F8 /* RandomViewModel.swift */; };
 		96B9D4392369843600AC92F8 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D4382369843600AC92F8 /* EditViewModel.swift */; };
+		96B9D43C23698FF100AC92F8 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D43B23698FF100AC92F8 /* UIColor_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		96B9D4322369840B00AC92F8 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		96B9D4362369842800AC92F8 /* RandomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewModel.swift; sourceTree = "<group>"; };
 		96B9D4382369843600AC92F8 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		96B9D43B23698FF100AC92F8 /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
 		C8541626041B57F99E810FF8 /* Pods_mydojo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mydojo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D1F988BB924AFC5A6E96A5 /* Pods-mydojo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydojo.debug.xcconfig"; path = "Target Support Files/Pods-mydojo/Pods-mydojo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 		071496DD236921E8002A55E2 /* mydojo */ = {
 			isa = PBXGroup;
 			children = (
+				96B9D43A23698FD900AC92F8 /* Extension */,
 				96B9D42D2369839400AC92F8 /* Feature */,
 				0714970123692C3D002A55E2 /* View */,
 				071496DE236921E8002A55E2 /* AppDelegate.swift */,
@@ -180,6 +183,14 @@
 				96B9D4382369843600AC92F8 /* EditViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		96B9D43A23698FD900AC92F8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				96B9D43B23698FF100AC92F8 /* UIColor_Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		975A7D56B979C767D17C7881 /* Frameworks */ = {
@@ -344,6 +355,7 @@
 				96B9D4392369843600AC92F8 /* EditViewModel.swift in Sources */,
 				96B9D4332369840B00AC92F8 /* EditViewController.swift in Sources */,
 				96B9D4372369842800AC92F8 /* RandomViewModel.swift in Sources */,
+				96B9D43C23698FF100AC92F8 /* UIColor_Extension.swift in Sources */,
 				0714970323692C52002A55E2 /* CircularButton.swift in Sources */,
 				96B9D431236983F100AC92F8 /* RandomViewController.swift in Sources */,
 				071496DF236921E8002A55E2 /* AppDelegate.swift in Sources */,
@@ -439,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -493,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -509,7 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6ZR9NZF2XV;
+				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = mydojo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -530,7 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6ZR9NZF2XV;
+				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = mydojo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
