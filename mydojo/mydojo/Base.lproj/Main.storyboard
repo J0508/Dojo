@@ -10,18 +10,17 @@
         <!--mydojo-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mydojo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RandomViewController" customModule="mydojo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgJ-m7-PPy">
-                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push up" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DgJ-m7-PPy">
+                                <rect key="frame" x="10" y="248" width="394" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="94i-X1-fTn"/>
-                                    <constraint firstAttribute="height" constant="200" id="f8K-ox-kfb"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="f8K-ox-kfb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -36,13 +35,28 @@
                                     <action selector="random:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Le-ZG-nvC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10x" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNH-K6-F97">
+                                <rect key="frame" x="10" y="138" width="404" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="gU4-fg-wU9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DgJ-m7-PPy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A1S-3F-Vmb"/>
+                            <constraint firstItem="DNH-K6-F97" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Cup-bP-PL4"/>
                             <constraint firstItem="LJ0-2E-uia" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L7b-RJ-sNw"/>
                             <constraint firstItem="LJ0-2E-uia" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="PKb-CM-kng"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DNH-K6-F97" secondAttribute="trailing" id="QaQ-B5-lAN"/>
                             <constraint firstItem="DgJ-m7-PPy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XRi-DI-eyH"/>
+                            <constraint firstItem="DNH-K6-F97" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fL4-c3-vcT"/>
+                            <constraint firstItem="DgJ-m7-PPy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="gvO-Cz-tvl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DgJ-m7-PPy" secondAttribute="trailing" constant="10" id="otf-NO-A3E"/>
+                            <constraint firstItem="DgJ-m7-PPy" firstAttribute="top" secondItem="DNH-K6-F97" secondAttribute="bottom" constant="10" id="qeS-Ha-qCO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -55,6 +69,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="randomButton" destination="LJ0-2E-uia" id="GG9-I0-zGd"/>
+                        <outlet property="repsLabel" destination="DNH-K6-F97" id="Uv2-BZ-qDc"/>
                         <outlet property="valueLabel" destination="DgJ-m7-PPy" id="aRD-gq-Shr"/>
                     </connections>
                 </viewController>
@@ -67,6 +82,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pqc-aL-TxW" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H7a-CA-eSu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

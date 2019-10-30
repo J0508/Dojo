@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		071496DF236921E8002A55E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071496DE236921E8002A55E2 /* AppDelegate.swift */; };
 		071496E1236921E8002A55E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071496E0236921E8002A55E2 /* SceneDelegate.swift */; };
-		071496E3236921E8002A55E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071496E2236921E8002A55E2 /* ViewController.swift */; };
 		071496E6236921E8002A55E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071496E4236921E8002A55E2 /* Main.storyboard */; };
 		071496E8236921E9002A55E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071496E7236921E9002A55E2 /* Assets.xcassets */; };
 		071496EB236921E9002A55E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071496E9236921E9002A55E2 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,10 @@
 		0714970323692C52002A55E2 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714970223692C52002A55E2 /* CircularButton.swift */; };
 		3406C613EC7C0FCE80C25891 /* Pods_mydojo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8541626041B57F99E810FF8 /* Pods_mydojo.framework */; };
 		61B2BB7AF6878CE816855005 /* Pods_mydojoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF7B61FA2FB9F6E843AABDE /* Pods_mydojoTests.framework */; };
+		96B9D431236983F100AC92F8 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D430236983F100AC92F8 /* RandomViewController.swift */; };
+		96B9D4332369840B00AC92F8 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D4322369840B00AC92F8 /* EditViewController.swift */; };
+		96B9D4372369842800AC92F8 /* RandomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D4362369842800AC92F8 /* RandomViewModel.swift */; };
+		96B9D4392369843600AC92F8 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9D4382369843600AC92F8 /* EditViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +36,6 @@
 		071496DB236921E8002A55E2 /* mydojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mydojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		071496DE236921E8002A55E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		071496E0236921E8002A55E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		071496E2236921E8002A55E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		071496E5236921E8002A55E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		071496E7236921E9002A55E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		071496EA236921E9002A55E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +48,10 @@
 		38BD2883F9C6DF0646BA8DFF /* Pods-mydojoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydojoTests.debug.xcconfig"; path = "Target Support Files/Pods-mydojoTests/Pods-mydojoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91A3C4B4FCCDB806CA567FD6 /* Pods-mydojo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydojo.release.xcconfig"; path = "Target Support Files/Pods-mydojo/Pods-mydojo.release.xcconfig"; sourceTree = "<group>"; };
 		93B7F04F2C4A238DA002A01D /* Pods-mydojoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydojoTests.release.xcconfig"; path = "Target Support Files/Pods-mydojoTests/Pods-mydojoTests.release.xcconfig"; sourceTree = "<group>"; };
+		96B9D430236983F100AC92F8 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		96B9D4322369840B00AC92F8 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		96B9D4362369842800AC92F8 /* RandomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewModel.swift; sourceTree = "<group>"; };
+		96B9D4382369843600AC92F8 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
 		C8541626041B57F99E810FF8 /* Pods_mydojo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mydojo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D1F988BB924AFC5A6E96A5 /* Pods-mydojo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mydojo.debug.xcconfig"; path = "Target Support Files/Pods-mydojo/Pods-mydojo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,10 +99,10 @@
 		071496DD236921E8002A55E2 /* mydojo */ = {
 			isa = PBXGroup;
 			children = (
+				96B9D42D2369839400AC92F8 /* Feature */,
 				0714970123692C3D002A55E2 /* View */,
 				071496DE236921E8002A55E2 /* AppDelegate.swift */,
 				071496E0236921E8002A55E2 /* SceneDelegate.swift */,
-				071496E2236921E8002A55E2 /* ViewController.swift */,
 				071496E4236921E8002A55E2 /* Main.storyboard */,
 				071496E7236921E9002A55E2 /* Assets.xcassets */,
 				071496E9236921E9002A55E2 /* LaunchScreen.storyboard */,
@@ -131,6 +137,49 @@
 				93B7F04F2C4A238DA002A01D /* Pods-mydojoTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		96B9D42D2369839400AC92F8 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				96B9D42F236983AF00AC92F8 /* EditViewController */,
+				96B9D42E236983A100AC92F8 /* RandomViewController */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		96B9D42E236983A100AC92F8 /* RandomViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96B9D4342369841000AC92F8 /* ViewModel */,
+				96B9D430236983F100AC92F8 /* RandomViewController.swift */,
+			);
+			path = RandomViewController;
+			sourceTree = "<group>";
+		};
+		96B9D42F236983AF00AC92F8 /* EditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96B9D4352369841500AC92F8 /* ViewModel */,
+				96B9D4322369840B00AC92F8 /* EditViewController.swift */,
+			);
+			path = EditViewController;
+			sourceTree = "<group>";
+		};
+		96B9D4342369841000AC92F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96B9D4362369842800AC92F8 /* RandomViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		96B9D4352369841500AC92F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96B9D4382369843600AC92F8 /* EditViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		975A7D56B979C767D17C7881 /* Frameworks */ = {
@@ -292,8 +341,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B9D4392369843600AC92F8 /* EditViewModel.swift in Sources */,
+				96B9D4332369840B00AC92F8 /* EditViewController.swift in Sources */,
+				96B9D4372369842800AC92F8 /* RandomViewModel.swift in Sources */,
 				0714970323692C52002A55E2 /* CircularButton.swift in Sources */,
-				071496E3236921E8002A55E2 /* ViewController.swift in Sources */,
+				96B9D431236983F100AC92F8 /* RandomViewController.swift in Sources */,
 				071496DF236921E8002A55E2 /* AppDelegate.swift in Sources */,
 				071496E1236921E8002A55E2 /* SceneDelegate.swift in Sources */,
 			);
